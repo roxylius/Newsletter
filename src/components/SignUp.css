@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "Tan Aegean";
+    src: url(./assets/fonts/TAN\ -\ AEGEAN\ Regular.ttf);
+}
+
+@font-face {
+    font-family: "Chomsky";
+    src: url(./assets/fonts/Chomsky.otf);
+}
+
+h1 {
+    font-family: "Chomsky";
+    font-size: 3.1rem;
+    color: white;
+    font-weight: lighter;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    /* border: 3px solid greenyellow; */
+}
+
+.blur {
+    margin: 0;
+    background: url(./assets/images/background.jpg);
+    clip-path: inset(0 58% 0 0);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    filter: blur(4px);
+    /* border: 4px solid wheat; */
+}
+
+.overlay {
+    height: 100%;
+    width: 42%;
+    /* border: 4px dotted pink; */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.form h1 {
+    margin-top: 12vh;
+    margin-bottom: 6vh;
+    margin-left: -2.5vw;
+    font-size: 4.5em;
+}
+
+input {
+    font-family: 'tan aegean';
+    border: none;
+    border-bottom: 3.5px solid black;
+    background-color: transparent;
+    color: white;
+    margin: 2.4vh;
+    margin-left: -2vw;
+    width: 30vw;
+    font-size: 1.02em;
+}
+
+input::placeholder {
+    /* font-weight:bold; */
+    color: rgb(222, 222, 222);
+}
+
+input:focus {
+    background: none;
+    outline: none;
+}
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    border: none;
+    font-family: 'tan Aegean';
+    color: #ffffff;
+    font-size: 1.15em;
+    background: #000000;
+    padding: 5px 43px 11px 43px;
+    text-decoration: none;
+    margin-left: -2vw;
+    margin-top: 12vh;
+}
+
+.btn:hover {
+    background: #101010;
+    text-decoration: none;
+}
