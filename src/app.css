@@ -1,0 +1,23 @@
+html {
+    background: url(./elements/assets/images/background.jpg);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+h1 {
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+}

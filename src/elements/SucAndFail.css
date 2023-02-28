@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Tan Aegean";
+    src: url(./assets/fonts/TAN\ -\ AEGEAN\ Regular.ttf);
+}
+
+@font-face {
+    font-family: "Chomsky";
+    src: url(./assets/fonts/Chomsky.otf);
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src: url(./assets/fonts/HelveticaNeue\ Medium.ttf);
+}
+
+
+.sf-container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.sf-blur {
+    margin: 0;
+    background: url(./assets/images/background.jpg);
+    clip-path: inset(0 0 65% 0);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    filter: blur(6px);
+    /* border: 4px solid wheat; */
+}
+
+.sf-overlay {
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 97%;
+}
+
+.sf-heading {
+    font-family: 'Helvetica neue';
+    font-size: 5rem;
+}
+
+p {
+    font-family: 'roboto mono';
+    font-size: 1.6rem;
+    color: white;
+    margin: 1% 0.5%;
+}
