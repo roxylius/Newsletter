@@ -13,11 +13,11 @@ const newsletter = () => {
         <>
             <Router>
                 <div>
-                    {/* <header /> */}
+                    <header />
                     <Route path='/success' element={<SucFail />} />
                     <Route path="/failure" element={<SucFail />} />
                     <Route exact path='/' element={<SignUp />} />
-                    {/* <footer /> */}
+                    <footer />
                 </div>
             </Router>
         </>
