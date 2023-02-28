@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d7c6c258.css",
+    "main.js": "/static/js/main.8a83d736.js",
+    "static/media/TAN - AEGEAN Regular.ttf": "/static/media/TAN - AEGEAN Regular.5e95f090f7bbde713b05.ttf",
+    "static/media/Chomsky.otf": "/static/media/Chomsky.7c2ce2ca847ebba92ad0.otf",
+    "static/media/background.jpg": "/static/media/background.1a0d95bf70e89604340a.jpg",
+    "static/media/HelveticaNeue Medium.ttf": "/static/media/HelveticaNeue Medium.64ab5024acf8e1619abc.ttf",
+    "index.html": "/index.html",
+    "main.d7c6c258.css.map": "/static/css/main.d7c6c258.css.map",
+    "main.8a83d736.js.map": "/static/js/main.8a83d736.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7c6c258.css",
+    "static/js/main.8a83d736.js"
+  ]
+}
