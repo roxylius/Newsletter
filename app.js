@@ -18,14 +18,18 @@ app.use(express.json());
 app.use(cors());
 
 //static files
-app.use(express.static(path.join(__dirname, '../client/build/static')));
+// app.use(express.static(path.join(__dirname, '../client/build/static')));
 
-app.get("*", (req, res) => {
-    res.sendFile(path.join(__dirname, '../client/build/index.html'))
-})
+// app.get("*", (req, res) => {
+//     res.sendFile(path.join(__dirname, '../client/build/index.html'))
+// })
 
 app.get('/', function (req, res) {
-    res.redirect("http://localhost:3001");
+    res.write("<html>");
+    res.write("this the server side");
+    res.write(`<br><br><br><button type="submit" onclick="location.href='` + process.env.WEB_URL + `'">go to deployed website</button>`);
+    res.write("</html>")
+    res.send();
 })
 
 app.post("/api/form", function (req, res) {
