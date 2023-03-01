@@ -12,13 +12,9 @@ const newsletter = () => {
     return (
         <>
             <Router>
-                <div>
-                    <header />
-                    <Route path='/success' element={<SucFail />} />
-                    <Route path="/failure" element={<SucFail />} />
-                    <Route exact path='/' element={<SignUp />} />
-                    <footer />
-                </div>
+                <Route path='/success' element={<SucFail />} />
+                <Route path="/failure" element={<SucFail />} />
+                <Route exact path='/' element={<SignUp />} />
             </Router>
         </>
     );
