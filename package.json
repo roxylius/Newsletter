@@ -1,7 +1,7 @@
 {
   "name": "crime-chronicles",
   "version": "0.1.0",
-  "homepage": "https://roxylius.github.io/crime-chronicles",
+  "homepage": "https://roxylius.github.io/Crime-chronicles",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
