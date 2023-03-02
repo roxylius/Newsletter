@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Crime-Chronicles/static/css/main.58258dab.css",
-    "main.js": "/Crime-Chronicles/static/js/main.cd7ea2fb.js",
-    "static/media/TAN - AEGEAN Regular.ttf": "/Crime-Chronicles/static/media/TAN - AEGEAN Regular.5e95f090f7bbde713b05.ttf",
-    "static/media/Chomsky.otf": "/Crime-Chronicles/static/media/Chomsky.7c2ce2ca847ebba92ad0.otf",
-    "static/media/background.jpg": "/Crime-Chronicles/static/media/background.1a0d95bf70e89604340a.jpg",
-    "static/media/HelveticaNeue Medium.ttf": "/Crime-Chronicles/static/media/HelveticaNeue Medium.64ab5024acf8e1619abc.ttf",
-    "index.html": "/Crime-Chronicles/index.html",
-    "main.58258dab.css.map": "/Crime-Chronicles/static/css/main.58258dab.css.map",
-    "main.cd7ea2fb.js.map": "/Crime-Chronicles/static/js/main.cd7ea2fb.js.map"
+    "main.css": "/Crime-chronicles/static/css/main.0142d2e8.css",
+    "main.js": "/Crime-chronicles/static/js/main.cd7ea2fb.js",
+    "static/media/TAN - AEGEAN Regular.ttf": "/Crime-chronicles/static/media/TAN - AEGEAN Regular.5e95f090f7bbde713b05.ttf",
+    "static/media/Chomsky.otf": "/Crime-chronicles/static/media/Chomsky.7c2ce2ca847ebba92ad0.otf",
+    "static/media/background.jpg": "/Crime-chronicles/static/media/background.1a0d95bf70e89604340a.jpg",
+    "static/media/HelveticaNeue Medium.ttf": "/Crime-chronicles/static/media/HelveticaNeue Medium.64ab5024acf8e1619abc.ttf",
+    "index.html": "/Crime-chronicles/index.html",
+    "main.0142d2e8.css.map": "/Crime-chronicles/static/css/main.0142d2e8.css.map",
+    "main.cd7ea2fb.js.map": "/Crime-chronicles/static/js/main.cd7ea2fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.58258dab.css",
+    "static/css/main.0142d2e8.css",
     "static/js/main.cd7ea2fb.js"
   ]
 }
