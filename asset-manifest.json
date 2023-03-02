@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Newsletter/static/css/main.e6b22f56.css",
-    "main.js": "/Newsletter/static/js/main.a1019f24.js",
+    "main.js": "/Newsletter/static/js/main.cd7ea2fb.js",
     "static/media/TAN - AEGEAN Regular.ttf": "/Newsletter/static/media/TAN - AEGEAN Regular.5e95f090f7bbde713b05.ttf",
     "static/media/Chomsky.otf": "/Newsletter/static/media/Chomsky.7c2ce2ca847ebba92ad0.otf",
     "static/media/background.jpg": "/Newsletter/static/media/background.1a0d95bf70e89604340a.jpg",
     "static/media/HelveticaNeue Medium.ttf": "/Newsletter/static/media/HelveticaNeue Medium.64ab5024acf8e1619abc.ttf",
     "index.html": "/Newsletter/index.html",
     "main.e6b22f56.css.map": "/Newsletter/static/css/main.e6b22f56.css.map",
-    "main.a1019f24.js.map": "/Newsletter/static/js/main.a1019f24.js.map"
+    "main.cd7ea2fb.js.map": "/Newsletter/static/js/main.cd7ea2fb.js.map"
   },
   "entrypoints": [
     "static/css/main.e6b22f56.css",
-    "static/js/main.a1019f24.js"
+    "static/js/main.cd7ea2fb.js"
   ]
 }
