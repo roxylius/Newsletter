@@ -7,9 +7,9 @@ import "./app.css";
 const newsletter = () => {
     return (
         <Routes>
-            <Route path='/success' element={<SucFail />} />
-            <Route path="/failure" element={<SucFail />} />
-            <Route exact path='/' element={<SignUp />} />
+            <Route path='Crime-chronicles/success' element={<SucFail />} />
+            <Route path="Crime-chronicles/failure" element={<SucFail />} />
+            <Route exact path='Crime-chronicles/' element={<SignUp />} />
         </Routes>
     );
 }
