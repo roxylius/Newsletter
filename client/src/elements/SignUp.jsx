@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './SignUp.css';
+import URL from "./assets/helper/serverUrl";
 
 const Login = () => {
     const [formData, setFormData] = useState({
@@ -12,7 +13,8 @@ const Login = () => {
         event.preventDefault(); // prevent premature form submission
         // setSent(true);
         try {
-            const url = "http://localhost:3000/api/form";
+            console.log(URL);
+            const url = URL + "/api/form";
             await fetch(url, {
                 method: "POST",
                 redirect: 'follow',
@@ -23,13 +25,20 @@ const Login = () => {
             }).then(async (Response) => {
                 const data = await Response.json();
                 const url = data.redirectUrl;
+                const baseURL = window.location.origin;
                 console.log(url);
-                window.location.href = url;
+                if (url.includes("success"))
+                    window.location.href = baseURL + "/success";
+                else
+                    window.location.href = baseURL + "/failure";
+
+                console.log(baseURL);
                 // console.log(Response);
             });
         } catch (error) {
             console.error(error);
-            window.location.href = "http://localhost:3001/failure"
+            const baseURL = window.location.origin;
+            window.location.href = baseURL + "/failure";
         }
     };
 
