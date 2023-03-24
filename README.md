@@ -44,7 +44,7 @@ npm install
 
 ## Environment Variables
 
-There are 3 environment variable in server directory:
+There are 3 environment variable in **server** directory:
 
 1. **POSTURL** : https://<dc>.api.mailchimp.com/3.0/lists/{list_id} check out [request documentation](https://mailchimp.com/developer/marketing/docs/methods-parameters/)
 
@@ -52,8 +52,8 @@ There are 3 environment variable in server directory:
 
 3. **WEB_URL** : Provide your client-side app’s URL
 
-<br>
-There is 1 environment variable in client directory:
+
+There is 1 environment variable in **client** directory:
 
 1. **REACT_APP_SERVER_URL** : Provide you server-side app's URL
 
