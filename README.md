@@ -1,2 +1,2 @@
 # Newsletter
-The newsletter project utilizes the Mailchimp API to store and manage user data for efficient distribution of newsletters. 
+This GitHub project is a newsletter web app that uses MailChimp API for communication, React for frontend and Node.js for backend. It allows users to subscribe to newsletters and receive updates on various topics. The application has a responsive design and customizable email preferences, ensuring user convenience. Overall, it's a reliable tool for personal and business use that demonstrates the versatility of these programming languages.
