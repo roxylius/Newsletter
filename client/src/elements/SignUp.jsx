@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import './SignUp.css';
-import URL from "./assets/helper/serverUrl";
 
 const Login = () => {
     const [formData, setFormData] = useState({
@@ -13,8 +12,9 @@ const Login = () => {
         event.preventDefault(); // prevent premature form submission
         // setSent(true);
         try {
-            console.log(URL);
-            const url = URL + "/api/form";
+            console.log(process.env.REACT_APP_SERVER_URL);
+            const url = process.env.REACT_APP_SERVER_URL + "/api/form";
+            console.log(url);
             await fetch(url, {
                 method: "POST",
                 redirect: 'follow',
